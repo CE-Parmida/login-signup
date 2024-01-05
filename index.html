@@ -10,8 +10,9 @@
     <div class="main">
         <div class="signup">
             <form>
-                <h2 class="title">Sign up</h2>
-                <input type="text" autocomplete="username" placeholder="User name" required>
+                <input type="checkbox" id="check">
+                <label for="check" id="signupLabel">Sign up</lable>
+                <input class="usr" type="text" autocomplete="username" placeholder="User name" required>
                 <input type="email" placeholder="Email" required>
                 <input type="password" placeholder="Password" required>
                 <button>Sign up</button>
@@ -19,8 +20,8 @@
         </div>
         <div class="hiddenForm">
             <form>
-                <h4 class="title">Login</h4>
-                <input type="email" placeholder="Email" required>
+                <label for="check" id="loginLabel">Login</lable> <br>
+                <input class="usr" type="email" placeholder="Email" required>
                 <input type="password" placeholder="Password" required>
                 <button>Login</button>
             </form>

@@ -23,24 +23,32 @@ body{
     height: 100%;
 }
 
-h2{
+label{
     color: #FFFFFF;
     font-family:fantasy;
+    display:block;
+    justify-content: center;
     font-weight: bold;
-    font-size:xx-large;
+    font-size:2.3em;
     margin-top: 50px;
     margin-bottom: 40px;
     transition: .5s ease-in-out;
+    cursor: pointer;
 }
 
 input{
     background-color: #E0DEDE;
     border-radius: 4px;
     border: none;
+    outline: none;
     width: 70%;
     height: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 3px 7px;
+}
+
+.usr{
+    margin-top: 40px;
 }
 
 button{
@@ -67,22 +75,29 @@ button:hover{
     height: 100%;
 }
 
-h4{
+#loginLabel{
     color: #4A55A2;
     font-family:fantasy;
-    font-size: 2em;
+    margin-top: 10px;
+    font-size: 1.3em;
     font-weight: bold;
-    margin: 50px;
     transition: .5s ease-in-out;
-    transform: scale(.6);
 }
 
 .hiddenForm{
-    transform: translateY(-160px);
-    transition: all .3s ease-out;
+    transform: translateY(-110px);
+    transition: .8s ease-in-out;
     background-color: #EEEEEE;
     width: 320px;
     height: 450px;
     box-shadow: 5px 5px 30px;
-    border-radius:60%/10%;
+    border-radius:90%/10%;
+}
+
+#check{
+    display: none;
+}
+
+#check:checked ~ .hiddenForm{
+    transform: translateY(-370px);
 }
