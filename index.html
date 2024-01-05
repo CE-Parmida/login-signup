@@ -8,10 +8,16 @@
 <body>
     <form>
         <h2>Sign up</h2>
-        <input type="text" placeholder="User name">
-        <input type="text" placeholder="Email">
-        <input type="text" placeholder="Password">
+        <input type="text" autocomplete="username" placeholder="User name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
         <button>Sign up</button>
     </form>
+    <div class="hiddenForm">
+        <h4>Login</h4>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <button>Login</button>
+    </div>
 </body>
 </html>
