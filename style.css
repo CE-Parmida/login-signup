@@ -1,4 +1,15 @@
 body{
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+form{
+    width: 250px;
+    height: 350px;
+    box-shadow: 5px 5px 30px;
+    border-radius: 12px;
 }
