@@ -7,18 +7,24 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <form>
-        <h2>Sign up</h2>
-        <input type="text" autocomplete="username" placeholder="User name" required>
-        <input type="email" placeholder="Email" required>
-        <input type="password" placeholder="Password" required>
-        <button>Sign up</button>
-    </form>
-    <div class="hiddenForm">
-        <h4>Login</h4>
-        <input type="email" placeholder="Email" required>
-        <input type="password" placeholder="Password" required>
-        <button>Login</button>
+    <div class="main">
+        <div class="signup">
+            <form>
+                <h2 class="title">Sign up</h2>
+                <input type="text" autocomplete="username" placeholder="User name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button>Sign up</button>
+            </form>
+        </div>
+        <div class="hiddenForm">
+            <form>
+                <h4 class="title">Login</h4>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button>Login</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>

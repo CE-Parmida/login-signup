@@ -9,20 +9,28 @@ body{
     background: linear-gradient(#4A55A2, #7895CB, #24243E) ;
 }
 
+.main{
+    overflow: hidden;
+    width: 320px;
+    height: 420px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 30px;
+}
+
+.signup{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
 h2{
     color: #FFFFFF;
     font-family:fantasy;
     font-weight: bold;
     font-size:xx-large;
-    margin-top: 35px;
+    margin-top: 50px;
     margin-bottom: 40px;
-}
-
-form{
-    width: 320px;
-    height: 450px;
-    box-shadow: 5px 5px 30px;
-    border-radius: 12px;
+    transition: .5s ease-in-out;
 }
 
 input{
@@ -30,7 +38,7 @@ input{
     border-radius: 4px;
     border: none;
     width: 70%;
-    height: 8%;
+    height: 30px;
     margin-bottom: 20px;
     padding: 3px 7px;
 }
@@ -51,4 +59,30 @@ button{
 
 button:hover{
     background-color: #4A55A2;
+}
+
+.signup{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+h4{
+    color: #4A55A2;
+    font-family:fantasy;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 50px;
+    transition: .5s ease-in-out;
+    transform: scale(.6);
+}
+
+.hiddenForm{
+    transform: translateY(-160px);
+    transition: all .3s ease-out;
+    background-color: #EEEEEE;
+    width: 320px;
+    height: 450px;
+    box-shadow: 5px 5px 30px;
+    border-radius:60%/10%;
 }
