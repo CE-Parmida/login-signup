@@ -98,6 +98,6 @@ button:hover{
     display: none;
 }
 
-#check:checked ~ .hiddenForm{
+#check:checked ~ .hiddenForm {
     transform: translateY(-370px);
 }
